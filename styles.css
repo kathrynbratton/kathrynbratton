@@ -1,0 +1,162 @@
+section, .contact, .bio, .profex, .creativeex, .proficiencies, .card, .creativeSub, .proficiencyS {
+  background-color: #E7E8D8; 
+}
+section {
+  padding-top: 26px;
+}
+.topnav {
+  z-index: 1000;
+  justify-content: center;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 450;
+  position: fixed;
+  color: #18381b;
+  font-family: "DM Serif Display", serif;
+  display: flex;
+  align-items: center;
+  top: 0;
+  background-color: #BC9F8B;
+}
+.topnav a {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  color: #f2f2f2;
+  font-size: 17px;
+  padding: 13px 15px;
+  text-align: center;
+}
+.topnav a:hover {
+  color: #18381b;
+  transform: scale(1.05);
+}
+.intro {
+  font-family: "DM Serif Display", serif;
+  background-color: #CADABF;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  color: #18381b;
+}
+.contact {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  padding: 20px;
+  background-color: #CADABF;
+}
+.contact:hover {
+  transform: scale(1.02);
+  background-color: #E7E8D8;
+}
+.contact p {
+  font-size: 2rem; 
+  font-weight: 700; 
+  margin-bottom: 5px;
+  color: #18381b;
+}
+.emailLink, .pdfLink {
+  font-family: "Neuton", serif;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #18381b;
+  margin-top: 5px;
+  font-size: 20px;
+  border: 5px solid #CADABF;
+  border-radius: 20px;
+}
+.emailLink:hover, .pdfLink:hover {
+  background-color: #CADABF;
+  transform: scale(1.05);
+  color: white;
+}
+.bio {
+  padding: 30px;
+  background-color: #CADABF;
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+}
+.bio p.title {
+  color: #18381b;
+  font-weight: 700; 
+  margin-bottom: 17px;
+  font-size: 2rem; 
+}
+.bio p.para {
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: "Neuton", serif;
+  color: #18381b;
+}
+.profex {
+  padding: 20px;
+  background-color: #E7E8D8;
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+}
+.profex .title {
+  font-size: 2rem;
+  color: #18381b;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #BC9F8B;
+}
+.cardSub {
+  font-size: 1.2rem;
+  font-family: "Neuton", serif;
+  color: #CADABF;
+}
+.cardTxt {
+  font-size: 1rem;
+  font-family: "Neuton", serif;
+  color: #18381b;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+.creativeex {
+  text-align: center;
+  background-color: #CADABF;
+  font-family: "DM Serif Display", serif;
+}
+.creativeSub {
+  font-size: 1rem;
+  color: #18381b;
+  font-family: "Neuton", serif;
+}
+.creativeex .title {
+  color: #18381b;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.proficiencies {
+  padding: 40px;
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+  background-color: #E7E8D8;
+  margin: 0px auto; 
+  max-width: 750px;
+}
+.proficiencyS {
+  font-family: "Neuton", serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.proficiencies .title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #18381b;
+  margin-bottom: 30px;
+}
